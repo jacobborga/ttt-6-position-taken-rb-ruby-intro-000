@@ -5,5 +5,6 @@ def position_taken(board, index)
   end
   if board[index].strip == "X" || board[index].strip == "O"
     return false
+  end
   return true
 end
